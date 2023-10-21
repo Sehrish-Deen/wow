@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body {
+      background-image: url(https://wallpapers.com/images/hd/digital-airplane-wharf-k74ke4nq2k8bwn2j.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+    }
+
+    .globe {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+ 
+.globe p{
+position: absolute;
+top: 45px;
+left: 75px;
+font-weight: bold;
+font-size: 24px;
+}
+#img {
+   
+	width: 100%;
+	height: 100%;
+	animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+</style>
+
+<body>
+
+
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+          <div class="container-fluid">
+    
+            <div class="globe">
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/019/053/744/small/world-globe-earth-map-png.png"
+                id="img" class="ms-5" alt="Image 1">
+              <p class="text-light ">WOW</p>
+            </div>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+              class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span
+                class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">ABOUT</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="index.html">TEAM</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="pagination.html">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="flight.html">FLIGHT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">MOST VISIT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact us and Map.html">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    
+      </header>
+    
+<!-- Booking Form -->
+    <div class="container mt-5 mb-5 border border-secondary opacity-75 bg-dark">
+        <h1 class="mb-4 text-light text-center mt-4">Flight Booking Form</h1>
+        <form id="bookingForm">
+            <div class="mb-3">
+                <label for="name" class="form-label text-light">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label text-light">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+                <label for="quantity" class="form-label text-light">Quantity of Tickets:</label>
+                <input type="number" class="form-control" id="quantity" placeholder="Enter the number of tickets" required>
+            </div>
+            <div class="mb-3">
+                <label for="departureDate" class="form-label text-light">Departure Date:</label>
+                <input type="date" class="form-control" id="departureDate" required>
+            </div>
+            <div class="mb-3">
+                <label for="returnDate" class="form-label text-light">Return Date:</label>
+                <input type="date" class="form-control" id="returnDate" required>
+            </div>
+            <div class="mb-3">
+                <label for="flightSearch" class="form-label text-light">Flight Search:</label>
+                <select class="form-select" id="flightSearch" required>
+                    <option value="" disabled selected>Select a flight</option>
+                    <option value="flight1">Best</option>
+                    <option value="flight2">Cheapest</option>
+                    <option value="flight3">Fastest</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="carBooking" class="form-label text-light">Car Booking:</label>
+                <select class="form-select" id="carBooking" required>
+                    <option value="" disabled selected>Select a car</option>
+                    <option value="Premium Car">Premium</option>
+                    <option value="Midsize SUV Car">Midsize SUV</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary mx-auto d-block mb-4">Confirm Ticket</button>
+        </form>
+    </div>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.getElementById("bookingForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const quantity = document.getElementById("quantity").value;
+            const departureDate = document.getElementById("departureDate").value;
+            const returnDate = document.getElementById("returnDate").value;
+            const flightSearch = document.getElementById("flightSearch").value;
+            const carBooking = document.getElementById("carBooking").value;
+
+            const nameRegex = /^[a-zA-Z ]+$/;
+            const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+            if (!nameRegex.test(name)) {
+                Swal.fire({
+                    icon: "error",
+                    title: "Validation Error!",
+                    text: "Please enter a valid name (letters and spaces only).",
+                });
+            } else if (!emailRegex.test(email)) {
+                Swal.fire({
+                    icon: "error",
+                    title: "Validation Error!",
+                    text: "Please enter a valid email address.",
+                });
+            } else {
+                Swal.fire({
+                    icon: "info",
+                    title: "Confirmation",
+                    text: "Are you sure you want to book this flight and car?",
+                    showCancelButton: true,
+                    confirmButtonText: "Yes, I'm sure",
+                    cancelButtonText: "No, cancel",
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                    
+                        Swal.fire({
+                            icon: "success",
+                            title: "Booking Confirmed",
+                            text: `Your flight for ${quantity} tickets on ${departureDate} to ${returnDate} has been booked. You have also booked a ${carBooking}.`,
+                        });
+                    } else {
+                       
+                        Swal.fire({
+                            icon: "info",
+                            title: "Booking Canceled",
+                            text: "Your flight and car booking has been cancelled.",
+                        });
+                    }
+                });
+            }
+        });
+    </script>
+
+<!-- Footer -->
+<footer class="text-center text-light bg-dark">
+	<!-- Section: Social media -->
+	<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+	  <!-- Left -->
+	  <div class="me-5 d-none d-lg-block">
+		<span>Get connected with us on social networks:</span>
+	  </div>
+	  <!-- Left -->
+  
+	  <!-- Right -->
+	  <div>
+	
+		<a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="https://twitter.com/login?lang=en" target="_blank"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+		<a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj1hsySo7mBAxXYQpEFHaibAb0YABAAGgJscg&gclid=EAIaIQobChMI9YbMkqO5gQMV2EKRBR2omwG9EAAYASAAEgKjQPD_BwE&ohost=www.google.com&cid=CAASJeRogJOsxC6xrYzCKu8q_pSl8GeHdP_S4vek1jBU7SFb2JCYEgo&sig=AOD64_1YhmIqUuWtY7vh40zxCtwboRrYUw&q&adurl&ved=2ahUKEwjqtsWSo7mBAxXbZ_EDHaXCAD4Q0Qx6BAgGEAE" target="_blank"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+	  <a
+	  class="btn text-white btn-floating m-1"
+	  style="background-color: #dd4b39;"
+	  href="https://accounts.google.com/signin" target="_blank"
+	  role="button"
+	  ><i class="fab fa-google"></i
+	></a>
+	<a
+	class="btn text-white btn-floating m-1"
+	style="background-color: #ac2bac;"
+	href="https://www.instagram.com/accounts/onetap/?next=%2F" target="_blank"
+	role="button"
+	><i class="fab fa-instagram"></i
+  ></a>
+  <a
+  class="btn text-white btn-floating m-1"
+  style="background-color: #0082ca;"
+  href="https://pk.linkedin.com/" target="_blank"
+  role="button"
+  ><i class="fab fa-linkedin-in"></i
+></a>
+<a
+  class="btn text-white btn-floating m-1"
+  style="background-color: #333333;"
+  href="https://github.com/login" target="_blank"
+  role="button"
+  ><i class="fab fa-github"></i
+></a>
+	  </div>
+	  <!-- Right -->
+	</section>
+	<!-- Section: Social media -->
+  
+	<!-- Section: Links  -->
+	<section class="">
+	  <div class="container text-center text-md-start mt-5">
+		<!-- Grid row -->
+		<div class="row mt-3">
+		  <!-- Grid column -->
+		  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+			<!-- Content -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  <i class="fas fa-gem me-3 text-light"></i>WOW
+			</h6>
+			<p>
+				Mystery creates wonder and wonder is the basis of man's desire to understand.
+			</p>
+		  </div>
+		  <!-- Grid column -->
+  
+		  <!-- Grid column -->
+		  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Coding language
+			</h6>
+			<p>
+			  <a href="https://www.w3schools.com/html/default.asp" target="_blank"  class="text-reset">Html5</a>
+			</p>
+			<p>
+			  <a href="https://www.w3schools.com/css/default.asp" target="_blank" class="text-reset">Css3</a>
+			</p>
+			<p>
+			  <a href="https://www.w3schools.com/js/default.asp" target="_blank" class="text-reset">javascript</a>
+			</p>
+			
+		  </div>
+		  <!-- Grid column -->
+  
+		  <!-- Grid column -->
+		  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Useful links
+			</h6>
+			<p>
+			  <a href="index.html" class="text-reset">Home</a>
+			</p>
+			<p>
+			  <a href="pagination.html" class="text-reset">Gallery</a>
+			</p>
+			<p>
+			  <a href="index.html" class="text-reset">About us</a>
+			</p>
+			<p>
+			  <a href="contact us and Map.html" class="text-reset">Contact</a>
+			</p>
+		  </div>
+		  <!-- Grid column -->
+  
+		  <!-- Grid column -->
+		  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+			<p><i class="fas fa-home me-3 text-secondary"></i> Karachi,Pakistan</p>
+			<p>
+				<i class="fas fa-envelope me-3 text-secondary"><a href="mailto:info@example.com" class="text-decoration-none text-light ms-4"><b>info@example.com</b></a></i>
+			  </p>
+			<p><i class="fas fa-phone me-3 text-secondary"></i> + 92 33456785</p>
+			<p><i class="fas fa-print me-3 text-secondary"></i> + 92 33456789</p>
+		  </div>
+		  <!-- Grid column -->
+		</div>
+		<!-- Grid row -->
+	  </div>
+	</section>
+	<!-- Section: Links  -->
+  
+	<!-- Copyright -->
+	<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+	  © 2023 Copyright:Wonders of World
+	  
+	</div>
+	<!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  
+</body>
+</html>

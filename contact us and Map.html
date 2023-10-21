@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="contact.css">
+    <script src="alert.js"></script>
+    <style>
+        
+        
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+			<div class="globe">
+				<img src="https://static.vecteezy.com/system/resources/thumbnails/019/053/744/small/world-globe-earth-map-png.png" id="img" class="ms-5" alt="Image 1">
+				<p class="text-light ">WOW</p>
+			</div>
+			<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">ABOUT</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">TEAM</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pagination.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<li class="nav-item">
+							<a class="nav-link" href="flight.html">FLIGHT</a>
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">MOST VISIT</a>
+							</li>
+						</li>
+						<a class="nav-link" href="contact us and Map.html">CONTACT</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <div class="caption">
+        <h1 class="mt-5">Contact Us</h1>
+    </div>
+    <div class="container mt-5 mb-5 opacity-75">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-container bg-dark">
+                    <h2 class="text-light">Contact Us</h2>
+                    <form name="submit-to-google-sheet">
+                        <div class="mb-3">
+                            <input type="text" class="form-control text-dark" id="name" placeholder="Your Name" ><br>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" ><br>
+                            <textarea  class="form-control" id="feedback" rows="5" placeholder="Your Feedback"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-outline-secondary text-light " style="background-color: rgb(80, 97, 248);" onclick="validateform()">Submit</button>
+                    </form>
+                </div>
+
+                <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    
+
+            </div>
+            <div class="col-md-6">
+                <div class="contact-container bg-dark ">
+                    <h2 class="text-light">Our Location</h2>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.1377120007633!2d67.03045847451075!3d24.927378142578224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1694588822882!5m2!1sen!2s" frameborder="0" style="border:0; width: 100%; height: 300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- Footer -->
+<footer class="text-center text-light bg-dark">
+	<!-- Section: Social media -->
+	<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+	  <!-- Left -->
+	  <div class="me-5 d-none d-lg-block">
+		<span>Get connected with us on social networks:</span>
+	  </div>
+	  <!-- Left -->
+  
+	  <!-- Right -->
+	  <div>
+	
+		<a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="https://twitter.com/login?lang=en" target="_blank"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+		<a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj1hsySo7mBAxXYQpEFHaibAb0YABAAGgJscg&gclid=EAIaIQobChMI9YbMkqO5gQMV2EKRBR2omwG9EAAYASAAEgKjQPD_BwE&ohost=www.google.com&cid=CAASJeRogJOsxC6xrYzCKu8q_pSl8GeHdP_S4vek1jBU7SFb2JCYEgo&sig=AOD64_1YhmIqUuWtY7vh40zxCtwboRrYUw&q&adurl&ved=2ahUKEwjqtsWSo7mBAxXbZ_EDHaXCAD4Q0Qx6BAgGEAE" target="_blank"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+	  <a
+	  class="btn text-white btn-floating m-1"
+	  style="background-color: #dd4b39;"
+	  href="https://accounts.google.com/signin" target="_blank"
+	  role="button"
+	  ><i class="fab fa-google"></i
+	></a>
+	<a
+	class="btn text-white btn-floating m-1"
+	style="background-color: #ac2bac;"
+	href="https://www.instagram.com/accounts/onetap/?next=%2F" target="_blank"
+	role="button"
+	><i class="fab fa-instagram"></i
+  ></a>
+  <a
+  class="btn text-white btn-floating m-1"
+  style="background-color: #0082ca;"
+  href="https://pk.linkedin.com/" target="_blank"
+  role="button"
+  ><i class="fab fa-linkedin-in"></i
+></a>
+<a
+  class="btn text-white btn-floating m-1"
+  style="background-color: #333333;"
+  href="https://github.com/login" target="_blank"
+  role="button"
+  ><i class="fab fa-github"></i
+></a>
+	  </div>
+	  <!-- Right -->
+	</section>
+	<!-- Section: Social media -->
+  
+	<!-- Section: Links  -->
+	<section class="">
+	  <div class="container text-center text-md-start mt-5">
+		<!-- Grid row -->
+		<div class="row mt-3">
+		  <!-- Grid column -->
+		  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+			<!-- Content -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  <i class="fas fa-gem me-3 text-light"></i>WOW
+			</h6>
+			<p>
+				Mystery creates wonder and wonder is the basis of man's desire to understand.
+			</p>
+		  </div>
+		  <!-- Grid column -->
+  
+		  <!-- Grid column -->
+		  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Coding language
+			</h6>
+			<p>
+			  <a href="https://www.w3schools.com/html/default.asp" target="_blank"  class="text-reset">Html5</a>
+			</p>
+			<p>
+			  <a href="https://www.w3schools.com/css/default.asp" target="_blank" class="text-reset">Css3</a>
+			</p>
+			<p>
+			  <a href="https://www.w3schools.com/js/default.asp" target="_blank" class="text-reset">javascript</a>
+			</p>
+			
+		  </div>
+		  <!-- Grid column -->
+  
+		  <!-- Grid column -->
+		  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Useful links
+			</h6>
+			<p>
+			  <a href="index.html" class="text-reset">Home</a>
+			</p>
+			<p>
+			  <a href="pagination.html" class="text-reset">Gallery</a>
+			</p>
+			<p>
+			  <a href="index.html" class="text-reset">About us</a>
+			</p>
+			<p>
+			  <a href="contact us and Map.html" class="text-reset">Contact</a>
+			</p>
+		  </div>
+		  <!-- Grid column -->
+  
+		  <!-- Grid column -->
+		  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+			<p><i class="fas fa-home me-3 text-secondary"></i> Karachi,Pakistan</p>
+			<p>
+				<i class="fas fa-envelope me-3 text-secondary"><a href="mailto:info@example.com" class="text-decoration-none text-light ms-4"><b>info@example.com</b></a></i>
+			  </p>
+			<p><i class="fas fa-phone me-3 text-secondary"></i> + 92 33456785</p>
+			<p><i class="fas fa-print me-3 text-secondary"></i> + 92 33456789</p>
+		  </div>
+		  <!-- Grid column -->
+		</div>
+		<!-- Grid row -->
+	  </div>
+	</section>
+	<!-- Section: Links  -->
+  
+	<!-- Copyright -->
+	<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+	  © 2023 Copyright:Wonders of World
+	  
+	</div>
+	<!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+</body>
+</html>
