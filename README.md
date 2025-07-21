@@ -36,7 +36,7 @@
 ## 📸 Screenshots
 
 ### 🔹 Home Page  
-![Home Page](https://github.com/Sehrish-Deen/wow/blob/master/ss/Home%20Page.png?raw=true)
+![Home Page](https://github.com/Sehrish-Deen/wow/blob/master/ss.png/Home%20Page.png?raw=true)
 
 ### 🔹 Gallery  
 ![Gallery](https://github.com/Sehrish-Deen/wow/blob/master/ss/Gallery.png?raw=true)
