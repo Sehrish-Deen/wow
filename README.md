@@ -36,32 +36,28 @@
 ## 📸 Screenshots
 
 ### 🔹 Home Page  
-![Home](https://github.com/Sehrish-Deen/wow/blob/master/ss/Home.png?raw=true)
+![Home Page](https://github.com/Sehrish-Deen/wow/blob/master/ss/Home%20Page.png?raw=true)
 
-### 🔹 Gallery Page  
+### 🔹 Gallery  
 ![Gallery](https://github.com/Sehrish-Deen/wow/blob/master/ss/Gallery.png?raw=true)
 
 ### 🔹 Booking Form  
-![Booking Form](https://github.com/Sehrish-Deen/wow/blob/master/ss/BookingForm.png?raw=true)
+![Booking Form](https://github.com/Sehrish-Deen/wow/blob/master/ss/Booking%20Form.png?raw=true)
 
-### 🔹 Car Booking Page  
-![Car Booking](https://github.com/Sehrish-Deen/wow/blob/master/ss/CarBooking.png?raw=true)
+### 🔹 Car Booking  
+![Car Booking](https://github.com/Sehrish-Deen/wow/blob/master/ss/Car%20Booking.png?raw=true)
 
-### 🔹 Booking Confirmation Popup (SweetAlert)  
-![Confirmed Popup](https://github.com/Sehrish-Deen/wow/blob/master/ss/ConfirmedPopup.png?raw=true)
+### 🔹 Confirmed Popup  
+![Confirmed Popup](https://github.com/Sehrish-Deen/wow/blob/master/ss/Confirmed%20Popup.png?raw=true)
 
-### 🔹 Contact Page  
+### 🔹 Contact  
 ![Contact](https://github.com/Sehrish-Deen/wow/blob/master/ss/Contact.png?raw=true)
 
 ### 🔹 Flight Deals  
-![Flight Deals](https://github.com/Sehrish-Deen/wow/blob/master/ss/FlightDeals.png?raw=true)
+![Flight Deals](https://github.com/Sehrish-Deen/wow/blob/master/ss/Flight%20Deals.png?raw=true)
 
-### 🔹 Pagination Page  
+### 🔹 Pagination  
 ![Pagination](https://github.com/Sehrish-Deen/wow/blob/master/ss/Pagination.png?raw=true)
-
----
-
-
 
 
 
