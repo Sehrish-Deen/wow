@@ -1,10 +1,10 @@
-# ✈️ WOW – Flight Booking Static Website
+#  WOW – Flight Booking Static Website
 
 **WOW** is a modern and responsive flight booking website built using HTML, CSS, JavaScript, and Bootstrap. It showcases clean UI, smooth navigation, and interactive alerts using SweetAlert.
 
 ---
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - HTML5  
 - CSS3  
@@ -14,17 +14,17 @@
 
 ---
 
-## 🌐 Website Pages
+##  Website Pages
 
-- 🏠 Home  
-- ℹ️ About  
-- 🖼 Gallery  
-- 👥 Team  
-- 🧾 Flight Booking Form (with confirmation popup)
+-  Home  
+-  About  
+-  Gallery  
+-  Team  
+-  Flight Booking Form (with confirmation popup)
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - Fully responsive design  
 - Interactive UI with SweetAlert popups  
@@ -36,20 +36,24 @@
 ## 📸 Screenshots
 
 ### 🔹 Home Page  
-![Home](https://github.com/Sehrish-Deen/wow/blob/main/ss.png/Homepage.png?raw=true)
+![Home](https://github.com/Sehrish-Deen/wow/blob/main/ss/Home.png?raw=true)
+
+### 🔹 About Page  
+![About](https://github.com/Sehrish-Deen/wow/blob/main/ss/About.png?raw=true)
 
 ### 🔹 Gallery Page  
-![Gallery](https://github.com/Sehrish-Deen/wow/blob/main/ss.png/Gallery.png?raw=true)
+![Gallery](https://github.com/Sehrish-Deen/wow/blob/main/ss/Gallery.png?raw=true)
 
 ### 🔹 Team Page  
-![Team](https://github.com/Sehrish-Deen/wow/blob/main/ss.png/Team.png?raw=true)
+![Team](https://github.com/Sehrish-Deen/wow/blob/main/ss/Team.png?raw=true)
 
 ### 🔹 Booking Confirmation (SweetAlert)  
-![Booking Popup](https://github.com/Sehrish-Deen/wow/blob/main/ss.png/BookingPopup.png?raw=true)
+![Booking Popup](https://github.com/Sehrish-Deen/wow/blob/main/ss/BookingPopup.png?raw=true)
+
 
 ---
 
-## ▶️ How to Run the Project
+## ▶ How to Run the Project
 
 1. Clone the repository:
    ```bash
@@ -60,4 +64,4 @@ Open index.html in your browser.
 
 Or use Live Server in VS Code for a better experience.
 
-⚠️ Note: This is a static website – no backend or database integration is included.
+ Note: This is a static website – no backend or database integration is included.
